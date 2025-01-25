@@ -8,7 +8,8 @@ with open('wallets.txt', 'r') as file:
     if '' in wallets:
         wallets.remove('')
 
-max_p = 115792089237316195423570985008687907852837564279074904382605163141518161494336
+min_p = 73786976294838206464
+max_p = 147573952589676412927
 
 
 # random bruteforce
